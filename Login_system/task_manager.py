@@ -1,7 +1,28 @@
+# ----------------------------------------------------------------------------------------
+# Author: Oboni Anower (oboni.anower@gmail.com)
+#
+# task_manager.py (c) 2023
+#
+# Description:  a program fora small business that can help to manage tasks assigned to each member 
+#               of the team. 2 text templates are provided 
+#                - user.txt contains admin usernam and password 
+#                - tasks.txt contains admin's task data.
+#               members should be able to Sign in to the system, add tasks for others and themselves, 
+#               view others tasks, view and modify their own tasks. Only the admin has access to new user 
+#               registration and task statistics. Once a user signs out, an overview report is generated.
+#              
+#              
+# Created:  07 January 2023 20:23:45
+# Modified: 26 January 2023 15:50:24
+# -----------------------------------------------------------------------------------------
+
+
+# Imported Library
+import os
+
 # ====Login Section====
 # open and read user.txt file
 # split the contains where comma+1space present
-import os
 
 global username_input
 
