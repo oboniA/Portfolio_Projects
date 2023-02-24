@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.new_user_announcement {
+    text-align: center;
+    font-size:25px;
+    background-color: rgb(228, 92, 205);
+    color: beige;
+}
+
+.logo {
+    width: 70px;
+    height:70px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    color: rgb(54, 54, 54);
+}
+
+.sale {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(236, 101, 214);
+    color: beige;
+}
+
+
+
+/* images: sizing, stretching, hovering, responsive */
+
+#img_size {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 30px;
+}
+
+.outer {
+    position: relative;
+    height: 55%;
+    width: 70%;
+}
+
+.outer img, .inner img {
+    width: 100%;
+    
+}
+
+.inner {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    display: none;
+}
+
+.outer:hover .inner {
+    display: block;
+}
+
+
+
+.container-fluid {
+    background-color: rgb(223, 212, 212);
+}
+
+
+/* buttons */
+
+.buy_btn {
+    color:rgb(250, 249, 250);
+    background-color: rgb(190, 88, 173);
+    font-size: 30px;
+}
+
+.in_Button {
+    font-size: 30px;
+}
+
+.cart_Button {
+    font-size: 30px;
+}
+
+.fav_Button {
+    font-size: 30px;
+}
+
+input.form-control { 
+    width: 600px!important; 
+}
+
+.btn_search {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(190, 88, 173);
+}
+
+.top_Button {
+    color: rgb(154, 18, 172);
+}
+
+.new_Button {
+    color: rgb(154, 18, 172);
+}
+
+.recom_Button {
+    color: rgb(154, 18, 172);
+}
+
+.load_more {
+    color: rgb(154, 18, 172);
+    font-size: 40px;
+}
+
+
+.footlogo {
+    width: 30px;
+    height:30px;
+}
